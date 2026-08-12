@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar do Clube - Pedido On-line</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍹 Bar do Clube</h1>
+    <p>Faça seu pedido e entregamos onde você estiver!</p>
+</header>
+
+<main class="container">
+    <!-- Seção de Localização -->
+    <section class="card">
+        <h2>1. Sua Localização no Clube</h2>
+
+        <label for="zona">Área do Clube:</label>
+        <select id="zona">
+            <option value="">Selecione a área...</option>
+            <option value="Piscina / Deck">Piscina / Deck</option>
+            <option value="Quadras">Quadras Esportivas</option>
+            <option value="Quiosques">Quiosque / Churrasqueira</option>
+            <option value="Gramado / Playground">Gramado / Playground</option>
+        </select>
+
+        <label for="ponto">Número / Ponto de Referência:</label>
+        <input type="text" id="ponto" placeholder="Ex: Espreguiçadeira 12, Quadra 2, etc.">
+
+        <label for="cliente">Seu Nome:</label>
+        <input type="text" id="cliente" placeholder="Como o entregador deve te chamar?">
+    </section>
+
+    <!-- Seção do Cardápio Categorizado -->
+    <section class="card">
+        <h2>2. Escolha seus Produtos</h2>
+        <div id="cardapio-categorias">
+            <!-- As categorias e produtos serão inseridos aqui dinamicamente pelo JavaScript -->
+        </div>
+    </section>
+
+    <!-- Resumo do Pedido -->
+    <section class="card carrinho-fixed">
+        <h2>3. Resumo do Pedido</h2>
+        <ul id="carrinho-itens">
+            <li class="vazio">Nenhum item selecionado.</li>
+        </ul>
+        <div class="total-container">
+            <strong>Total: R$ <span id="valor-total">0,00</span></strong>
+        </div>
+
+        <button class="btn-enviar" onclick="enviarPedido()">
+            🚀 Confirmar e Enviar Pedido
+        </button>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
