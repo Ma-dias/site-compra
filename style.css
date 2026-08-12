@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    color: #ae691f;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+/* Cardápio */
+.produto-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.produto-item:last-child {
+    border-bottom: none;
+}
+
+.produto-info strong {
+    display: block;
+    font-size: 1rem;
+}
+
+.produto-info span {
+    color: #ae691f;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.btn-qtd {
+    background: #e0e0e0;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.qtd-valor {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Carrinho */
+#carrinho-itens {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#carrinho-itens li {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 0.95rem;
+}
+
+.vazio {
+    color: #888;
+    font-style: italic;
+}
+
+.total-container {
+    text-align: right;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid #eee;
+}
+
+.btn-enviar {
+    width: 100%;
+    background-color: #ae691f;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-enviar:active {
+    background-color: #ae691f;
+}
