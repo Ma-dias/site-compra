@@ -44,7 +44,7 @@ header p {
 
 .card h2 {
     font-size: 1.2rem;
-    color: #ae691f;
+    color: #000000;
     margin-bottom: 15px;
     border-bottom: 2px solid #f0f0f0;
     padding-bottom: 8px;
@@ -64,14 +64,54 @@ input, select {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 0.95rem;
+    margin-bottom: 5px;
 }
 
-/* Cardápio */
+/* Acordeão de Categorias e Subcategorias */
+.categoria-titulo {
+    background-color: #ae691f;
+    color: white;
+    padding: 12px 15px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subcategoria-titulo {
+    background-color: #eaf4f8;
+    color: #000000;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoria-conteudo, .subcategoria-conteudo {
+    display: none;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.categoria-conteudo.ativo, .subcategoria-conteudo.ativo {
+    display: block;
+}
+
+/* Produtos */
 .produto-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
+    padding: 10px 5px;
     border-bottom: 1px solid #eee;
 }
 
@@ -81,22 +121,23 @@ input, select {
 
 .produto-info strong {
     display: block;
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 .produto-info span {
-    color: #ae691f;
+    color: #27ae60;
     font-weight: bold;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 .btn-qtd {
     background: #e0e0e0;
     border: none;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -145,5 +186,5 @@ input, select {
 }
 
 .btn-enviar:active {
-    background-color: #ae691f;
+    background-color: #219150;
 }

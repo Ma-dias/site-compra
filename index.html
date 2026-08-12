@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar do Clube - Pedido On-line</title>
+    <title>Bar do Estrela - Pedido On-line</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>🍹 Bar do Clube</h1>
+    <h1>Bar do Estrela</h1>
     <p>Faça seu pedido e entregamos onde você estiver!</p>
 </header>
 
@@ -21,14 +21,14 @@
         <label for="zona">Área do Clube:</label>
         <select id="zona">
             <option value="">Selecione a área...</option>
-            <option value="Piscina / Deck">Piscina / Deck</option>
-            <option value="Quadras">Quadras Esportivas</option>
-            <option value="Quiosques">Quiosque / Churrasqueira</option>
-            <option value="Gramado / Playground">Gramado / Playground</option>
+            <option value="Campo Society">Campo Society</option>
+            <option value="Futevolei">Futevôlei</option>
+            <option value="Beach Tennis">Beach Tênis</option>
+            <!--<option value="Gramado / Playground">Gramado / Playground</option>-->
         </select>
 
-        <label for="ponto">Número / Ponto de Referência:</label>
-        <input type="text" id="ponto" placeholder="Ex: Espreguiçadeira 12, Quadra 2, etc.">
+        <label for="ponto">Mesa / Número / Ponto de Referência:</label>
+        <input type="text" id="ponto" placeholder="Ex: Número da quadra, etc.">
 
         <label for="cliente">Seu Nome:</label>
         <input type="text" id="cliente" placeholder="Como o entregador deve te chamar?">
@@ -53,7 +53,7 @@
         </div>
 
         <button class="btn-enviar" onclick="enviarPedido()">
-            🚀 Confirmar e Enviar Pedido
+             Confirmar e Enviar Pedido
         </button>
     </section>
 </main>
