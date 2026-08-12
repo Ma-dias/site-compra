@@ -1,5 +1,5 @@
 // Configuração do WhatsApp do seu Bar (Coloque o número real com DDD)
-const NUMERO_WHATSAPP = "556191538271";
+const NUMERO_WHATSAPP = "5561991538271";
 
 // Árvore Completa de Produtos organizada conforme suas categorias e subcategorias
 const menu = [
