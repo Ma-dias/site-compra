@@ -9,11 +9,11 @@ const menu = [
             {
                 nome: "1.1 Cervejas",
                 produtos: [
-                    { id: 101, nome: "Cerveja Heineken Long Neck 330ml", preco: 12.00 },
-                    { id: 102, nome: "Cerveja Brahma duplo malt Lata 350ml", preco: 8.00 },
+                    { id: 101, nome: "Heineken Long Neck 330ml", preco: 12.00 },
+                    { id: 102, nome: "Brahma duplo malt Lata 350ml", preco: 8.00 },
                     { id: 103, nome: "Cerveja IPA Artesanal 500ml", preco: 24.00 },
                     { id: 104, nome: "Chope Pilsen 400ml", preco: 10.00 },
-                    { id: 105, nome: "Cerveja Budweiser Zero (Sem Álcool)", preco: 9.00 }
+                    { id: 105, nome: "Budweiser Zero (Sem Álcool)", preco: 9.00 }
                 ]
             },
             {
@@ -37,8 +37,8 @@ const menu = [
             {
                 nome: "1.4 Vinhos e Espumantes",
                 produtos: [
-                    { id: 114, nome: "Vinho Tinto Cabernet Sauvignon (Garrafa)", preco: 85.00 },
-                    { id: 115, nome: "Vinho Branco Chardonnay (Garrafa)", preco: 85.00 },
+                    { id: 114, nome: "Tinto Cabernet Sauvignon (Garrafa)", preco: 85.00 },
+                    { id: 115, nome: "Branco Chardonnay (Garrafa)", preco: 85.00 },
                     { id: 116, nome: "Espumante Brut 750ml", preco: 95.00 },
                     { id: 117, nome: "Taça de Vinho da Casa", preco: 22.00 }
                 ]
