@@ -187,3 +187,7 @@ input, select {
 .btn-enviar:active {
     background-color: #219150;
 }
+
+.produto-controles {
+    min-width: 110px;
+}
