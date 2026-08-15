@@ -9,19 +9,22 @@ const menu = [
             {
                 nome: "1.1 Cervejas",
                 produtos: [
-                    {id: 101, nome: "Heineken Long Neck 330ml", preco: 12.00},
-                    {id: 102, nome: "Brahma duplo malt Lata 350ml", preco: 8.00},
-                    {id: 103, nome: "Cerveja IPA Artesanal 500ml", preco: 24.00},
-                    {id: 104, nome: "Chope Pilsen 400ml", preco: 10.00},
-                    {id: 105, nome: "Budweiser Zero (Sem Álcool)", preco: 9.00}
+                    {id: 1, nome: "Heineken Long Neck 330ml", preco: 12.00},
+                    {id: 2, nome: "Michelob Long Neck 330ml", preco: 12.00},
+                    {id: 3, nome: "Amistel Ultra Long Neck 330", preco: 10.00},
+                    {id: 4, nome: "Stella Pure Gold Long Neck 330ml", preco: 12.00},
+                    {id: 5, nome: "Corona Long Neck 330", preco: 12.00},
+                    {id: 6, nome: "Skol beats", preco: 13.00},
+                    {id: 7, nome: "Caracu Lata 350ml", preco: 12.00},
+                    {id: 8, nome: "51 ice Long Neck", preco: 12.00}
                 ]
             },
             {
                 nome: "1.2 Drinks e Coquetéis",
                 produtos: [
-                    {id: 106, nome: "Caipirinha de Limão (Cachaça)", preco: 20.00},
-                    {id: 107, nome: "Gin Tônica Tropical", preco: 28.00},
-                    {id: 108, nome: "Shot de Tequila Jose Cuervo", preco: 15.00},
+                    {id: 106, nome: "Caipirinha de Limão (Cachaça)", preco: 16.00},
+                    {id: 107, nome: "Caipirosca", preco: 25.00},
+                    {id: 108, nome: "Campare", preco: 15.00},
                     {id: 109, nome: "Mocktail de Frutas Vermelhas (Sem Álcool)", preco: 18.00}
                 ]
             },
@@ -52,29 +55,33 @@ const menu = [
                     {id: 121, nome: "Água de Coco Natural 300ml", preco: 10.00},
                     {id: 122, nome: "Suco Natural de Laranja 400ml", preco: 10.00},
                     {id: 123, nome: "Energético Red Bull 250ml", preco: 16.00}
+                    {id: 123, nome: "Energético Red Bull 250ml", preco: 16.00}
+
                 ]
             }
         ]
     },
+
+
     {
         categoria: "2. Comidas",
         subcategorias: [
             {
                 nome: "2.1 Porções e Petiscos",
                 produtos: [
-                    {id: 201, nome: "Batata Frita Tradicional (500g)", preco: 35.00},
-                    {id: 202, nome: "Mandioca Frita com Bacon", preco: 38.00},
-                    {id: 203, nome: "Porção de Pastéis Misto (10 un)", preco: 32.00},
-                    {id: 204, nome: "Contra Filé na Chapa com Pão", preco: 68.00},
-                    {id: 205, nome: "Tábua de Frios Completa", preco: 55.00}
+                    {id: 1, nome: "Batata Frita Tradicional (500g)", preco: 35.00},
+                    {id: 2, nome: "Mandioca Frita com Bacon", preco: 38.00},
+                    {id: 3, nome: "Porção de Pastéis Misto (10 un)", preco: 32.00},
+                    {id: 4, nome: "Contra Filé na Chapa com Pão", preco: 68.00},
+                    {id: 5, nome: "Tábua de Frios Completa", preco: 55.00}
                 ]
             },
             {
                 nome: "2.2 Pratos e Refeições",
                 produtos: [
-                    {id: 206, nome: "Prato Executivo Filé de Frango", preco: 32.00},
-                    {id: 207, nome: "Peixe Acarajé/Isca para Compartilhar", preco: 75.00},
-                    {id: 208, nome: "Salada Caesar com Tiras de Frango", preco: 28.00}
+                    {id: 6, nome: "Prato Executivo Filé de Frango", preco: 32.00},
+                    {id: 7, nome: "Peixe Acarajé/Isca para Compartilhar", preco: 75.00},
+                    {id: 8, nome: "Salada Caesar com Tiras de Frango", preco: 28.00}
                 ]
             }
         ]
@@ -218,6 +225,16 @@ function alterarQtd(id, delta) {
     }
 }
 
+function excluirItem(idProduto) {
+  console.log(idProduto);
+  console.log(carrinho);
+  if(carrinho[idProduto]) {
+      carrinho[idProduto].qtd = 0;
+      atualizarCarrinho();
+  }
+}
+
+
 // Atualizar resumo no final da tela
 function atualizarCarrinho() {
     const listaCarrinho = document.getElementById('carrinho-itens');
@@ -238,6 +255,7 @@ function atualizarCarrinho() {
             li.innerHTML = `
         <span>${item.qtd}x ${item.nome}</span>
         <span>R$ ${subtotal.toFixed(2).replace('.', ',')}</span>
+        <button class="btn-qtd excluir" onclick="excluirItem(${id})">-</button> 
       `;
             listaCarrinho.appendChild(li);
         }

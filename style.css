@@ -38,7 +38,7 @@ header p {
     background: white;
     border-radius: 12px;
     margin-bottom: 18px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .card h2 {
@@ -46,7 +46,7 @@ header p {
     color: #000000;
     margin-bottom: 15px;
     border-bottom: 2px solid #f0f0f0;
-    padding-bottom: 8px;
+    padding: 8px;
 }
 
 label {
@@ -149,6 +149,7 @@ input, select {
 #carrinho-itens {
     list-style: none;
     margin-bottom: 15px;
+    padding: 8px;
 }
 
 #carrinho-itens li {
@@ -191,3 +192,10 @@ input, select {
 .produto-controles {
     min-width: 110px;
 }
+
+.excluir{
+    background-color: red!important;
+    color: white;
+    margin-right: 10px;
+}
+
