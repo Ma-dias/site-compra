@@ -11,21 +11,26 @@ const menu = [
                 produtos: [
                     {id: 1, nome: "Heineken Long Neck 330ml", preco: 12.00},
                     {id: 2, nome: "Michelob Long Neck 330ml", preco: 12.00},
-                    {id: 3, nome: "Amistel Ultra Long Neck 330", preco: 10.00},
+                    {id: 3, nome: "Amistel Ultra Long Neck 330ml", preco: 10.00},
                     {id: 4, nome: "Stella Pure Gold Long Neck 330ml", preco: 12.00},
-                    {id: 5, nome: "Corona Long Neck 330", preco: 12.00},
+                    {id: 5, nome: "Corona Long Neck 330ml", preco: 12.00},
                     {id: 6, nome: "Skol beats", preco: 13.00},
                     {id: 7, nome: "Caracu Lata 350ml", preco: 12.00},
-                    {id: 8, nome: "51 ice Long Neck", preco: 12.00}
+                    {id: 8, nome: "51 ice Long Neck 275ml", preco: 12.00},
+                    {id: 9, nome: "Heineken 600ml", preco: 20.00},
+                    {id: 8, nome: "Corona 600ml", preco: 20.00},
+                    {id: 8, nome: "Antartica Original 600ml", preco: 16.00},
+                    {id: 10, nome: "Amistel 600ml", preco: 16.00}
+
                 ]
             },
             {
                 nome: "1.2 Drinks e Coquetéis",
                 produtos: [
-                    {id: 106, nome: "Caipirinha de Limão (Cachaça)", preco: 16.00},
-                    {id: 107, nome: "Caipirosca", preco: 25.00},
-                    {id: 108, nome: "Camparex", preco: 15.00},
-                    {id: 109, nome: "Mocktail de Frutas Vermelhas (Sem Álcool)", preco: 18.00}
+                    {id: 50, nome: "Caipirinha de Limão (Cachaça)", preco: 16.00},
+                    {id: 51, nome: "Caipirosca", preco: 25.00},
+                    {id: 52, nome: "Campare", preco: 15.00},
+                    {id: 53, nome: "Dose Gin Tonica", preco: 12.00}
                 ]
             },
             {
