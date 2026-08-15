@@ -24,7 +24,7 @@ const menu = [
                 produtos: [
                     {id: 106, nome: "Caipirinha de Limão (Cachaça)", preco: 16.00},
                     {id: 107, nome: "Caipirosca", preco: 25.00},
-                    {id: 108, nome: "Campare", preco: 15.00},
+                    {id: 108, nome: "Camparex", preco: 15.00},
                     {id: 109, nome: "Mocktail de Frutas Vermelhas (Sem Álcool)", preco: 18.00}
                 ]
             },
@@ -54,7 +54,7 @@ const menu = [
                     {id: 120, nome: "Água com Gás 500ml", preco: 6.00},
                     {id: 121, nome: "Água de Coco Natural 300ml", preco: 10.00},
                     {id: 122, nome: "Suco Natural de Laranja 400ml", preco: 10.00},
-                    {id: 123, nome: "Energético Red Bull 250ml", preco: 16.00}
+                    {id: 123, nome: "Energético Red Bull 250ml", preco: 16.00},
                     {id: 123, nome: "Energético Red Bull 250ml", preco: 16.00}
 
                 ]
