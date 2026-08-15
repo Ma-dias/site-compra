@@ -86,7 +86,7 @@ const menu = [
                 produtos: [
                     {id: 140, nome: "Jantinha Completa", preco: 35.00},
                     {id: 141, nome: "Espeto Simples", preco: 16.00},
-                    {id: 142, nome: "Queijo Quali", preco: 12.00}
+                    {id: 142, nome: "Queijo Qualy", preco: 12.00}
                 ]
             }
         ]
