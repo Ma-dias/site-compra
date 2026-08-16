@@ -80,10 +80,9 @@ const menu = [
                     {id: 120, nome: "Batata Frita P", preco: 22.00},
                     {id: 121, nome: "Batata Frita M", preco: 27.00},
                     {id: 120, nome: "Batata Frita G", preco: 39.00},
-                    {id: 121, nome: "Mandioca Frita com Bacon", preco: 38.00},
-                    {id: 122, nome: "Porção de Pastéis Misto (10 un)", preco: 32.00},
-                    {id: 123, nome: "Contra Filé na Chapa com Pão", preco: 68.00},
-                    {id: 124, nome: "Tábua de Frios Completa", preco: 55.00}
+                    {id: 121, nome: "Calabresa", preco: 39.00},
+                    {id: 122, nome: "Frango a Passarinho", preco: 32.00},
+                    {id: 123, nome: "File a Palito", preco: 90.00},
                 ]
             },
             {
