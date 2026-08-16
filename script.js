@@ -18,9 +18,9 @@ const menu = [
                     {id: 7, nome: "Caracu Lata 350ml", preco: 12.00},
                     {id: 8, nome: "51 ice Long Neck 275ml", preco: 12.00},
                     {id: 9, nome: "Heineken 600ml", preco: 20.00},
-                    {id: 8, nome: "Corona 600ml", preco: 20.00},
-                    {id: 8, nome: "Antartica Original 600ml", preco: 16.00},
-                    {id: 10, nome: "Amistel 600ml", preco: 16.00}
+                    {id: 10, nome: "Corona 600ml", preco: 20.00},
+                    {id: 11, nome: "Antartica Original 600ml", preco: 16.00},
+                    {id: 12, nome: "Amistel 600ml", preco: 16.00}
 
                 ]
             },
