@@ -54,13 +54,16 @@ const menu = [
             {
                 nome: "1.5 Bebidas Não Alcoólicas",
                 produtos: [
-                    {id: 110, nome: "Coca-Cola Lata 350ml", preco: 8.00},
+                    {id: 110, nome: "Refrigenrante Lata 330", preco: 8.00},
                     {id: 111, nome: "Água Mineral sem Gás 500ml", preco: 5.00},
                     {id: 112, nome: "Água com Gás 500ml", preco: 6.00},
-                    {id: 113, nome: "Água de Coco Natural 300ml", preco: 10.00},
+                    {id: 113, nome: "Água de Coco Natural", preco: 10.00},
                     {id: 114, nome: "Suco Natural de Laranja 400ml", preco: 10.00},
                     {id: 115, nome: "Energético Red Bull 250ml", preco: 16.00},
-                    {id: 116, nome: "Energético Red Bull 250ml", preco: 16.00}
+                    {id: 116, nome: "Energético Monster", preco: 16.00},
+                    {id: 117, nome: "Gatorate", preco: 11.00},
+                    {id: 118, nome: "Guarana Viton", preco: 10.00},
+                    {id: 119, nome: "Jara de Suco", preco: 23.00}
 
                 ]
             }
@@ -74,7 +77,9 @@ const menu = [
             {
                 nome: "2.1 Porções e Petiscos",
                 produtos: [
-                    {id: 120, nome: "Batata Frita Tradicional (500g)", preco: 35.00},
+                    {id: 120, nome: "Batata Frita P", preco: 22.00},
+                    {id: 121, nome: "Batata Frita M", preco: 27.00},
+                    {id: 120, nome: "Batata Frita G", preco: 39.00},
                     {id: 121, nome: "Mandioca Frita com Bacon", preco: 38.00},
                     {id: 122, nome: "Porção de Pastéis Misto (10 un)", preco: 32.00},
                     {id: 123, nome: "Contra Filé na Chapa com Pão", preco: 68.00},
@@ -97,10 +102,11 @@ const menu = [
             {
                 nome: "3.1 Sanduíches e Salgados",
                 produtos: [
-                    {id: 150, nome: "Burguer Artesanal 180g + Fritas", preco: 38.00},
-                    {id: 151, nome: "Misto Quente Especial", preco: 14.00},
-                    {id: 152, nome: "Sanduíche de Filé Mignon", preco: 34.00},
-                    {id: 153, nome: "Coxinha de Frango com Requeijão", preco: 9.00}
+                    {id: 150, nome: "Misto Quente", preco: 13.00},
+                    {id: 151, nome: "Misto Quente com ovo", preco: 14.00},
+                    {id: 152, nome: "Queijo Quente", preco: 11.00},
+                    {id: 153, nome: "Salgado Assado", preco: 10.00},
+                    {id: 153, nome: "Pastel", preco: 10.00}
                 ]
             }
         ]
